@@ -1,0 +1,55 @@
+@font-face
+{
+    font-family: Helvetica;
+    src: url(fonts/HelveticaNeueRoman.otf);
+}
+
+@font-face
+{
+    font-family: HelveticaThin;
+    src: url(fonts/HelveticaNeueThin.otf);
+}
+
+body
+{
+    background-color: black;
+}
+
+.text-container
+{
+    width: 393px;
+    height: 390px;;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;; 
+}
+
+.vector-wave
+{
+    position: absolute;
+    bottom: 390px;
+    left: 8px;
+}
+
+.weather-title
+{
+    font-family: HelveticaThin;
+    position: absolute;
+    top: 52px;
+    color: white;
+    font-size: 24px;
+    left: 162px;
+
+
+}
+
+.degree
+{
+    position: absolute;
+    top: 100px;
+    color: white;
+    left: 162px;
+    font-size: 64px;
+    font-family: Helvetica;
+    margin: 0;
+}
