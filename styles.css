@@ -3,11 +3,15 @@
     font-family: Helvetica;
     src: url(fonts/HelveticaNeueRoman.otf);
 }
-
 @font-face
 {
     font-family: HelveticaThin;
     src: url(fonts/HelveticaNeueThin.otf);
+}
+@font-face
+{
+    font-family: HelveticaBold;
+    src: url(fonts/HelveticaNeueBold.otf);
 }
 
 body
@@ -52,4 +56,37 @@ body
     font-size: 64px;
     font-family: Helvetica;
     margin: 0;
+}
+
+.city-name
+{
+    position: absolute;
+    font-family: HelveticaBold;
+    color: #8265A8;
+    font-size: 32px;
+    left: 110px;
+}
+
+.search-bar {
+    position: absolute;
+    bottom: 220px;
+    width: 328px;
+    height: 63px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 6.2px 12.5px 12.5px hsl(0deg 0% 0% / 0.2);
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    left: 20px;
+}
+
+.search-bar-text {
+    font-family: Helvetica;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    align-items: center;
 }
