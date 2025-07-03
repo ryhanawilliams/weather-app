@@ -101,3 +101,11 @@ body
 {
     padding: 0;
 }
+.wind-speed
+{
+    display: flex;
+    align-items: center;
+    bottom: 100px;
+    left: 35px;
+    position: absolute;
+}
